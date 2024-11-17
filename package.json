@@ -1,0 +1,43 @@
+{
+  "name": "vite-react-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "analyze": "tsx scripts/analyzer/cli.ts",
+    "analyze-git": "tsx scripts/analyzer/git-cli.ts",
+    "visualize": "tsx scripts/visualizer/index.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "express": "^4.18.2",
+    "get-port": "^7.0.0",
+    "commander": "^11.1.0",
+    "simple-git": "^3.22.0"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.23.6",
+    "@babel/traverse": "^7.23.6",
+    "@babel/types": "^7.23.6",
+    "@eslint/js": "^9.14.0",
+    "@types/babel__traverse": "^7.20.5",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "commander": "^11.1.0",
+    "eslint": "^9.14.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.12.2",
+    "vite": "^5.4.10"
+  }
+}
